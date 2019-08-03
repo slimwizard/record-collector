@@ -5,6 +5,7 @@
 ## Front-end (/client) uses HTML and Vanilla JavaScript. 
 ###TODO:
     - Add Styling
+    - Add loading bar to show when waiting on response from back-end
     - Error handling for invalid responses returned to fetch (currently only seen when there are no Discog search results for the album name that is used as input)
     - Form control (ensure text field is not empty before allowing user to 'add' record to their stash)
     - Ability to remove records from 'My Stash'
