@@ -1,0 +1,1 @@
+docker run -v $RECORD_COLLECTOR_PATH/server:/app --name record-collector-running -d -p 5000:5000 record-collector:latest && docker logs -f record-collector-running

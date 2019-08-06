@@ -1,0 +1,1 @@
+docker kill record-collector-running && docker rm record-collector-running
