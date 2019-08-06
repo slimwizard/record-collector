@@ -29,8 +29,8 @@ const setAlbumArt =(res)=> {
     imgNode.style.marginLeft = numOfRecords == 0 ? 0 : '-75px'
     imgNode.addEventListener("mouseenter", function() {
         this.style.zIndex = 30
-        this.width = 150
-        this.height = 150
+        this.width = 160
+        this.height = 160
     })
     let currentNum = numOfRecords
     imgNode.addEventListener("mouseleave", function() {
