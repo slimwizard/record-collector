@@ -1,24 +1,31 @@
 <!doctype html>
 
-<html lang="en">
+<html lang='en'>
 <head>
-  <meta charset="utf-8">
+  <meta charset='utf-8'>
   <title>Record Collector</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <input id="albumName">
-  <button onclick=scrape()>Add</button>
-
+  <div id="title">
+    <img width=40 height=40 src="spinning-7-inch.gif"> <h1 style="display: inline-block">RECORD COLLECTOR</h1> <img width=40 height=40 src="spinning-7-inch.gif">
+  </div>
+  <div id="search-section">
+    <input id='album-name'>
+    <button id='add-button' onclick=scrape()>Add</button>
+  </div>
   <div>
-    <h1>Your Stash</h1>
-    <div >
-      <ul id="collection">
+    <h2 style="display: inline-block">Your Stash</h2> <span style="margin-left: 2em;">total: 💲</span><span id='total'>0</span>
+    <div id='record-imgs' style='margin-top: 20px; height: 155px; min-width: 155px;'>
+    </div>
+    <div>
+      <ul id='collection'>
       </ul>
     </div>
-    <p>Total: </p><span>$</span><span id="total">0</span>
   </div>
 
-  <script src="script.js"></script>
+  <script src='script.js'></script>
 </body>
 </html>
